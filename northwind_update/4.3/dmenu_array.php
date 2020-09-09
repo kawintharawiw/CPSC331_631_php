@@ -289,7 +289,6 @@ addmenu(menu=["pyramid 31-36",,,200,1,"",style2,,"left",effect,0,,,,,,,,,,,
 ,"wiw_36","wiw_36.php target=_blank",,,1
 ])
 
-
 addmenu(menu=["pyramid all",,,200,1,"",style2,,"left",effect,0,,,,,,,,,,,
 ,"wiw_all","wiw_all.php target=_blank",,,1
 ])
