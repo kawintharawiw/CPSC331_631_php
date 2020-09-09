@@ -98,7 +98,7 @@ effect,				// Filter - Text variable for setting transitional effects on menu ac
 // "Description Text","URL", "Alternate URL", "Status", "Separator Bar"
 // Main menu
 ,"northwind","show-menu=northwind",,"",1    
-,"mysql_update.php","show-menu=mysql_update.php",,"",1
+,"mysql_update","show-menu=mysql_update",,"",1
 ,"pyramid","show-menu=pyramid",,"",1    
 ,"contact","show-menu=contact",,"",1
 ])
@@ -114,7 +114,7 @@ addmenu(menu=["northwind",,,150,1,"",style1,0,"left",effect,,,,,,,,,,,,
 ,"suppliers","show-menu=suppliers",,,1
 ])
 
-addmenu(menu=["mysql_update.php",,,150,1,"",style1,0,"left",effect,,,,,,,,,,,,
+addmenu(menu=["mysql_update",,,150,1,"",style1,0,"left",effect,,,,,,,,,,,,
 ,"categories_update","show-menu=categories_update",,,1
 ,"customers_update","show-menu=customers_update",,,1
 ,"employees_update","show-menu=employees_update",,,1
@@ -224,7 +224,7 @@ addmenu(menu=["suppliers",,,200,1,"",style2,,"left",effect,0,,,,,,,,,,,
 ,"sup_s7drop","sup_s7drop.php target=_blank",,,1
 ])
 
-addmenu(menu=["mysql_update.php",,,200,1,"",style2,,"left",effect,0,,,,,,,,,,,
+addmenu(menu=["mysql_update",,,200,1,"",style2,,"left",effect,0,,,,,,,,,,,
 ,"categories_update","categories_update.php  target=_blank",,,1
 ,"customers_update","customers_update.php target=_blank",,,1
 ,"employees_update","semployees_update.php  target=_blank",,,1
