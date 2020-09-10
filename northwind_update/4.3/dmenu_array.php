@@ -1,4 +1,4 @@
-﻿/*
+/*
  DHTML Menu version 3.3.19
  Written by Andy Woolley
  Copyright 2002 (c) Milonic Solutions. All Rights Reserved.
@@ -99,7 +99,7 @@ effect,				// Filter - Text variable for setting transitional effects on menu ac
 // Main menu
 ,"northwind","show-menu=northwind",,"",1    
 ,"mysql_update","show-menu=mysql_update",,"",1
-,"pyramid","show-menu=pyramid",,"",1    
+,"pyramid36","show-menu=pyramid36",,"",1    
 ,"contact","show-menu=contact",,"",1
 ])
 
@@ -126,7 +126,7 @@ addmenu(menu=["mysql_update",,,150,1,"",style1,0,"left",effect,,,,,,,,,,,,
 ])
 
 
-addmenu(menu=["pyramid",,,150,1,"",style1,0,"left",effect,,,,,,,,,,,,
+addmenu(menu=["pyramid36",,,150,1,"",style1,0,"left",effect,,,,,,,,,,,,
 ,"pyramid 1-6","show-menu=pyramid 1-6",,,1
 ,"pyramid 7-12","show-menu=pyramid 7-12",,,1
 ,"pyramid 13-18","show-menu=pyramid 13-18",,,1
