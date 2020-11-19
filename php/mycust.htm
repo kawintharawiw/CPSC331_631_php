@@ -1,0 +1,20 @@
+<script type="text/javascript">
+    function getprice() {  
+      var xmlHttp;
+      try { xmlHttp=new XMLHttpRequest(); } catch (e) {
+      try { xmlHttp=new ActiveXObject("Msxml2.XMLHTTP"); } catch (e) {
+      try { xmlHttp=new ActiveXObject("Microsoft.XMLHTTP"); } catch (e) { return false; } } }
+      xmlHttp.onreadystatechange=function() {
+        if(xmlHttp.readyState==4) { document.customers.CompanyName.value=xmlHttp.responseText; }
+      }
+      xmlHttp.open("GET","getcompanyname.php?CustomerID=" + document.customers.CustomerID.value  , true);
+      xmlHttp.send(null);
+    }
+    </script>
+    <form name=customers action=getcompanyname.php method=post>
+    <input name=CustomerID onkeyup="getprice();" autocomplete="off"><br/>
+    <input name=CompanyName readonly><br/>
+    <input type=submit value=Companyname>
+    </form>
+
+    
